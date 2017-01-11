@@ -5,13 +5,32 @@ public class Cardtester{
   
   //main method
   public static void main(String[] args){
+        
+   /* RedCard rCard = new RedCard();
+    rCard.setSuit("diamonds");
+    rCard.setRank('3');
+        System.out.println(rCard);             
+     */                
     
-   Card c = new Card(); 
+     BlackCard rCard = new BlackCard();
+    rCard.setSuit("diamonds");
+    rCard.setRank('3');
+        System.out.println(rCard);  
     
-    c.setColor("its a F###ing");
+    /*
+    way 1
     
-    // print out card
-    System.out.println(c.toString());
+    c.setColor("black");
+    
+    c.setSuit("spades");
+    
+    c.setRank('B');
+    
+    way 2
+    
+    Card c = new Card("red", "diamonds", "8");
+   */
+    
     
   }
   
